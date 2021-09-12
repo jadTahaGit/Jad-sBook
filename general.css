@@ -1,0 +1,17 @@
+.user-profile {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 50%;
+}
+
+.online {
+  position: relative;
+}
+
+.circular {
+  border-radius: 50%;
+}
+
+.small {
+  width: 2.4rem;
+}
