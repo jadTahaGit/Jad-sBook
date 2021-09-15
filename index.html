@@ -185,7 +185,7 @@
             </div>
             <div class="post-type">
               <ion-icon class="post-type-icon" name="happy"></ion-icon>
-              <p>Fealing/Activity</p>
+              <p>Feeling/Activity</p>
             </div>
           </div>
         </div>
@@ -194,7 +194,7 @@
             <div class="feed-header">
               <img
                 class="user-profile"
-                src="img/profile.png"
+                src="https://randomuser.me/api/portraits/women/28.jpg"
                 alt="user image"
               />
               <div class="feed-info">
@@ -210,30 +210,41 @@
             </div>
             <div class="feed-interaction">
               <div class="likes-counter">
-                <div>
-                  <ion-icon class=" icon" name="thumbs-up"></ion-icon>
-                  <ion-icon class="icon" name="heart"></ion-icon>
+                <div class="likes-counter-left-side">
+                    <ion-icon class=" icon" name="thumbs-up"></ion-icon>
+                    <ion-icon class="icon" name="heart"></ion-icon>
+                  <p>Jad Taha and 204 others</p>  
                 </div>
-                <p>Jad Taha and 204 others</p>  
+                <p>30 Comments</p>
               </div>
               <div class="feed-btns">
-                <ion-icon class="icon" name="thumbs-up-outline"></ion-icon>
-                <ion-icon class="icon" name="chatbox-outline"></ion-icon>
+                <div class="feed-btn">
+                  <ion-icon class="icon" name="thumbs-up-outline"></ion-icon>
+                  <p>Like</p>
+                </div>
+                <div class="feed-btn">
+                  <ion-icon class="icon" name="chatbox-outline"></ion-icon>
+                  <p>Comment</p>
+                </div>
               </div>
+              <a href="#">View 5 more comments</a>
               <div class="feed-comments">
-                <a href="#">View 5 more comments</a>
-                <div>
-                  <img class="circular small" src="img/profile.png" alt="">
-                  <div>
-                    <p></p>
-                    <p></p>
-                    <div>
+                  <img class="circular small" src="https://randomuser.me/api/portraits/women/0.jpg" alt="">
+                  <div class="feed-comments-right-side">
+                    <div class="comment-box">
+                      <p class="comment-username">
+                        Inass Zaidan
+                      </p>
+                      <p class="commet-content">
+                        Amazing View! Keep these great Moments up! 
+                      </p>
+                      </div>
+                    <div class="comment-interactions">
                       <p>Like .</p>
                       <p>Reply .</p>
                       <p>5h </p>
                     </div>
-                  </div>
-                </div>
+                  </div> 
               </div>
               <div class="write-comment">
                 <div class="online">
@@ -243,11 +254,15 @@
                     alt="user image"
                   />
                   </div>
-                  <input type="text" placeholder="Write a comment..." />
-                  <ion-icon name="happy-outline"></ion-icon>
-                  <ion-icon name="camera-outline"></ion-icon>
-                  <ion-icon name="camera-outline"></ion-icon>
-                  <ion-icon name="camera-outline"></ion-icon>
+                  <div class="write-comment-box">
+                    <input type="text" placeholder="Write a -box..." />
+                    <div class="comment-options-icons">
+                      <ion-icon class="comment-option-icon" name="happy-outline"></ion-icon>
+                      <ion-icon class="comment-option-icon" name="camera-outline"></ion-icon>
+                      <ion-icon class="comment-option-icon" name="camera-outline"></ion-icon>
+                      <ion-icon class="comment-option-icon" name="camera-outline"></ion-icon>
+                    </div>
+                  </div>
                 </div>
               </div>
               </div>
