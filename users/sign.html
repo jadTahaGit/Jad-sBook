@@ -5,13 +5,19 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>JadsBook</title>
-    <link rel="stylesheet" href="/assets/css/sign.css" />
+    <link rel="stylesheet" href="../assets/css/sign.css" type="text/css" />
+    <link rel="stylesheet" href="../assets/css/signUp.css" type="text/css" />
+    <link
+      rel="stylesheet"
+      href="../assets/css/blur-filter.css"
+      type="text/css"
+    />
   </head>
 
   <body>
     <div class="main">
       <div class="left-side">
-        <img src="/../assets/img/logo.png" />
+        <img src="../assets/img/logo.png" />
         <p>Connect with friends and the world around you on Facebook.</p>
       </div>
       <div class="right-side">
@@ -21,11 +27,82 @@
           <input type="submit" placeholder="Password" value="Log In" />
           <a href="#">Forget Password?</a>
           <div class="break-line"></div>
-          <a class="btn"> Create New Account </a>
+          <input
+            type="button"
+            class="btn register-btn"
+            value="Create New Account"
+          />
         </form>
 
         <p><a href="#">Create a Page </a> for a celebrity, band or business.</p>
       </div>
     </div>
+
+    <div class="pop-form">
+      <div class="pop-form-heading">
+        <p class="title">Sign Up</p>
+        <p class="sub-title">It's quick and easy</p>
+      </div>
+      <form action="">
+        <div class="name">
+          <input class="first-name" placeholder="First name" />
+          <input class="last-name" placeholder="Last name" />
+        </div>
+        <input
+          type="text"
+          class="email-phone"
+          placeholder="Mobile number or email"
+        />
+        <input type="password" class="password" placeholder="New password" />
+        <div class="flex-row">
+          <div class="input-title">
+            <label for="birthday">Birthday</label>
+            <ion-icon name="help-circle"></ion-icon>
+          </div>
+          <div class="birthday">
+            <select name="birth-day" id="days" class="select-body"></select>
+            <select name="birth-month" id="months" class="select-body"></select>
+            <select name="birth-year" id="years" class="select-body"></select>
+          </div>
+        </div>
+        <div class="flex-row">
+          <div class="input-title">
+            <label for="gender">Gender</label>
+            <ion-icon name="help-circle"></ion-icon>
+          </div>
+          <div class="gender">
+            <div>
+              <label for="female">Female</label>
+              <input type="radio" id="female" value="Female" />
+            </div>
+            <div>
+              <label for="male">Male</label>
+              <input type="radio" id="male" value="Male" />
+            </div>
+            <div>
+              <label for="custom">Custom</label>
+              <input type="radio" id="custom" value="Custom" />
+            </div>
+          </div>
+        </div>
+        <p>
+          By clicking Sign Up, you agree to our <a> Terms </a>. Learn how we
+          collect, use and share your data in our <a>Data Policy</a> and how we
+          use cookies and similar technology in our <a> Cookies Policy</a>. You
+          may receive SMS Notifications from us and can opt out any time.
+        </p>
+        <input type="submit" class="btn" />
+      </form>
+    </div>
+
+    <script src="../assets/js/popForm.js"></script>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
   </body>
 </html>

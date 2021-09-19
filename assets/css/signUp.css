@@ -1,0 +1,97 @@
+.pop-form {
+  position: absolute;
+  top: -15rem;
+  right: 32rem;
+  margin: 10% auto;
+  width: 24rem;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+  display: none;
+}
+
+.pop-form-heading {
+  padding: 0.8rem 1.2rem;
+  border-bottom: 1px solid #d8dadd;
+}
+
+.title {
+  font-size: 1.8rem;
+  font-weight: bold;
+}
+
+.sub-title {
+  font-size: 0.8rem;
+}
+
+.pop-form form {
+  padding: 0.4rem 1.2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.48rem;
+}
+
+.pop-form form input {
+  border-radius: 0.4rem;
+  border-color: #d8dadd;
+  height: 2rem;
+  padding: 1rem 0.4rem;
+  background-color: #f0f2f5;
+}
+
+.name {
+  display: flex;
+  justify-content: space-between;
+  gap: 0.62rem;
+}
+
+.name input {
+  width: 100%;
+}
+
+.flex-row {
+  display: flex;
+  flex-direction: column;
+  gap: 0.24rem;
+}
+
+.input-title {
+  padding: 0.32rem 0 0;
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: 0.2rem;
+  color: #676d76;
+}
+
+.input-title ion-icon[name='help-circle'] {
+  width: 0.8rem;
+  height: 0.8rem;
+}
+
+.gender {
+  display: flex;
+  justify-content: space-between;
+  gap: 0.62rem;
+}
+
+.gender div {
+  flex-grow: 1;
+  width: fit-content;
+  border: 1px solid #000;
+  padding: 0 0.48rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.pop-form form .btn {
+  align-self: center;
+  width: fit-content;
+  height: fit-content;
+  padding: 0.4rem 0.8rem;
+  color: #fff;
+  font-size: 1.4rem;
+  background-color: #00a400;
+}
